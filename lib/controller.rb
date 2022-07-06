@@ -14,13 +14,12 @@ class Controller
 
     def welcome_script
         @view.start
-
         @view.home_menu
-        params = gets.chomp.to_i
-
-        def show_result
+        
+            @params = gets.chomp.to_i
             @view.results
-        end
+
+
             
     end
 

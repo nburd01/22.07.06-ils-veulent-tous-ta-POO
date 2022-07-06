@@ -14,14 +14,14 @@ class View
     end
 
     def results
-        case params
-            when 0 .. 2
+        case @params
+            when 1
                 puts "baby"
-            when 3 .. 6
+            when 2
                 puts "little child"
-            when 7 .. 12
+            when 3
                 puts "child"
-            when 13 .. 18
+            when 4
                 puts "youth"
             else
                 puts "adult"
